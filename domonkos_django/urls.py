@@ -21,6 +21,7 @@ from main import views
 
 urlpatterns = [
     path('securitylogin/', admin.site.urls),
+    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
     path('', views.home, name='home'),
     path('contact/', views.contact_page,name='contact_page'),
     path('about/', views.about_page,name='about_page'),

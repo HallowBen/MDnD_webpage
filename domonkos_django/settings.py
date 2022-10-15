@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.forms',
+    'admin_honeypot', 
     'main',
     'captcha',
 ]
@@ -131,3 +132,5 @@ CAPTCHA_IMAGE_SIZE= (150,60)
 CAPTCHA_FONT_SIZE=30
 CAPTCHA_BACKGROUND_COLOR= 'rgb(122, 122, 122)'
 CAPTCHA_FOREGROUND_COLOR= '#cccccc'
+
+#security
